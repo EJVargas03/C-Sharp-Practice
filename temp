@@ -1,0 +1,20 @@
+Console.WriteLine("Hello\nWorld!");
+//\n adds a new line
+Console.WriteLine("Hello\tWorld!");
+//\t adds a tab
+
+//Console.WriteLine("Hello "World"!");
+//The slashed out code will get errors
+//(1,27): error CS1003: Syntax error, ',' expected
+//(1,27): error CS0103: The name 'World' does not exist in the current context
+//(1,32): error CS1003: Syntax error, ',' expected
+
+Console.WriteLine("Hello \"World\"!");
+//using \" lets you at quotes to text without prematurling terminating the string
+
+//Console.WriteLine("c:\source\repos");
+// //The slashed out code will get errors
+//1,22): error CS1009: Unrecognized escape sequence
+
+Console.WriteLine("c:\\source\\repos");
+//use the \\ to display a single backslash.
